@@ -19,11 +19,11 @@
         max-width: 496px;
     }
 
-    .button-row-btn{
-       font-size: 26px;
+    .button-row-btn {
+        font-size: 26px;
     }
 
-    .button-row-btn svg{
+    .button-row-btn svg {
         height: 26px;
     }
 
@@ -49,10 +49,10 @@
         max-width: 1200px;
     }
 
-    .items-wrap{
+    .items-wrap {
         gap: 258px;
     }
-    
+
     .main {
         padding: 60px 0;
     }
@@ -61,7 +61,7 @@
         font-size: 44px;
     }
 
-    .text{
+    .text {
         font-size: 22px;
         max-width: 690px;
     }
@@ -79,5 +79,69 @@
     .btn-3 {
         padding-left: 50px;
         padding-right: 50px;
+    }
+}
+
+@media screen and (width < 641px) {
+    .logo{
+        height: 44px;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        right: 10px;
+        top: 70px;
+        flex-direction: column;
+        z-index: 99;
+        background-color: #FFFFFF;
+        border: 3px solid #FFE457FF;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .menu ul{
+        flex-direction: column;
+    }
+
+    .menu ul li{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .active{
+        display: block;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    #text-container{
+        flex-direction: column;
+    }
+
+    h1{
+        order: 1;
+    }
+
+    .text{
+        order: 3;
+    }
+
+    .main-image{
+        order: 2;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+.button-row .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+    .button-row-btn{
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
