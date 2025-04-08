@@ -57,7 +57,7 @@ header .container{
     align-items: center;
 }
 
-button{
+.order{
     box-sizing: border-box;
     padding: 15px 20px;
     border: 2px solid #000000;
@@ -123,6 +123,42 @@ h1{
     font-size: 26px;
     line-height: 120%;
     color: #000000;
+}
+
+.button-row-btn{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 27px 70px;
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 60px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 110%;
+    color: #000000;
+    cursor: pointer;
+}
+
+.button-row-btn:hover{
+    background: #FFE457;
+
+}
+
+.button-row-btn svg{
+    margin-left: 10px;
+}
+
+.btn-2{
+    padding-left: 111px;
+    padding-right: 111px;
+}
+
+.btn-3{
+    padding-left: 94px;
+    padding-right: 94px;
 }
 
 @keyframes scroll {
