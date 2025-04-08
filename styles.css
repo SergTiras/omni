@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: 'Inter-Semi-Bold';
     src: url("fonts/Inter_24pt-SemiBold.ttf");
@@ -23,7 +25,6 @@ body{
     display: flex;
     justify-content: space-between;
 }
-
 header .container{
     padding: 20px 0;
 }
