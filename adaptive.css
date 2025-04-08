@@ -37,9 +37,47 @@
         padding-right: 77px;
     }
 
-    .btn-1 {
+    .btn-3 {
         padding-left: 66px;
         padding-right: 66px;
     }
 
+}
+
+@media screen and (width < 1441px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    .items-wrap{
+        gap: 258px;
+    }
+    
+    .main {
+        padding: 60px 0;
+    }
+
+    h1 {
+        font-size: 44px;
+    }
+
+    .text{
+        font-size: 22px;
+        max-width: 690px;
+    }
+
+    .btn-1 {
+        padding-left: 38px;
+        padding-right: 38px;
+    }
+
+    .btn-2 {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .btn-3 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
