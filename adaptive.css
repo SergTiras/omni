@@ -19,6 +19,14 @@
         max-width: 496px;
     }
 
+    .button-row-btn{
+       font-size: 26px;
+    }
+
+    .button-row-btn svg{
+        height: 26px;
+    }
+
     .btn-1 {
         padding-left: 50px;
         padding-right: 50px;
