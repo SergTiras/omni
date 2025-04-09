@@ -147,6 +147,12 @@
     }
 }
 
+@media screen and (width < 520px){
+    .main-image img{
+        width: 100%;
+    }
+}
+
 @media screen and (width < 381px){
     .item img {
         height: 92px;
@@ -166,7 +172,7 @@
 
     .text{
         font-size: 16px;
-        margin-bottom: 52px;
+        margin-bottom: 22px;
     }
 
     .button-row-btn{
